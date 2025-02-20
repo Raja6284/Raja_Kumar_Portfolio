@@ -17,17 +17,32 @@ const Sidebar = function () {
 
                 <nav className="mt-10 space-y-4 text-gray-400">
                     <div className="flex items-center space-x-2">
-                        <span className="w-12 h-px bg-gray-500"></span>
+                        <NavLink to="/" ><span className="w-12 h-px bg-gray-500"></span>
                         <span className="text-gray-500 font-semibold">ABOUT</span>
+                        </NavLink>
                     </div>
+
                     <div className="flex items-center space-x-2">
+                        <NavLink to="/experience">
                         <span className="w-12 h-px bg-gray-500"></span>
                         <span className="text-gray-500">EXPERIENCE</span>
+                        </NavLink>
+                        
                     </div>
                     <div className="flex items-center space-x-2">
+                        <NavLink to="projects">
                         <span className="w-12 h-px bg-gray-500"></span>
                         <span className="text-gray-500">PROJECTS</span>
+                        </NavLink>
                     </div>
+
+                    <div className="flex items-center space-x-2">
+                        <NavLink to="educations">
+                        <span className="w-12 h-px bg-gray-500"></span>
+                        <span className="text-gray-500">Educations</span>
+                        </NavLink>
+                    </div>
+
                     <div className="flex items-center space-x-2">
                         <span className="w-12 h-px bg-gray-500"></span>
                         <a href="/My_Resume.pdf" download="Raja_Kumar_Resume.pdf" className="text-gray-500 hover:text-white cursor-pointer">
