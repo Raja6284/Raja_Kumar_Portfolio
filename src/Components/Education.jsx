@@ -3,7 +3,7 @@ import { GraduationCap, School, BookOpen } from "lucide-react";
 const EducationCard = ({ title, institution, year, marks, icon: Icon }) => {
     return (
 
-        <div className="bg-slate-800 text-white p-6 rounded-2xl shadow-lg max-w-lg flex flex-col hover:bg-slate-700 transition duration-300">
+        <div className="bg-slate-800 text-white p-6 rounded-2xl shadow-lg max-w-lg flex flex-col hover:bg-slate-700 transition duration-300 mt-12">
             <div className="flex items-center justify-items-start gap-4">
                 <div className="bg-teal-600 p-3 rounded-lg">
                     <Icon className="text-white w-6 h-6" />

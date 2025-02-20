@@ -1,7 +1,7 @@
 const About = function () {
     return (
-        <div className="flex flex-col items-center justify-center py-10 px-6 mt-7 text-center">
-            <p className="text-gray-400 text-lg leading-relaxed tracking-wide max-w-2xl">
+        <div className="flex flex-col items-center justify-center py-10 px-4 sm:px-8 md:px-12 mt-7 text-center">
+            <p className="text-gray-400 text-base sm:text-lg md:text-xl leading-relaxed sm:leading-loose tracking-wide max-w-3xl">
                 I am a passionate <span className="text-white font-semibold">software developer</span> with expertise in 
                 <span className="text-white font-semibold"> C++, Python, JavaScript, Solidity, and SQL</span>. Currently pursuing my 
                 <span className="text-white font-semibold"> Bachelor of Technology at Heritage Institute of Technology</span>, I have a strong foundation 

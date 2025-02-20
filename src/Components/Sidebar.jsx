@@ -1,16 +1,19 @@
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa"
 import { FaTwitter } from "react-icons/fa"
+import { FaReddit } from "react-icons/fa";
 import { NavLink } from "react-router-dom"
 
 const Sidebar = function () {
     return (
         <div>
             <div className="flex flex-col items-center justify-start pt-15">
-                <h1 className="font-bold text-5xl">Raja Kumar</h1>
+                
+                    <h1 className="font-bold text-5xl">Raja Kumar</h1>
 
-                <h2 className="text-xl mt-5">Software Engineer,Blockchain developer</h2>
+                    <h2 className="text-xl mt-5">Software Engineer,Blockchain developer</h2>
 
-                <p className="text-lg mt-4">Pre-final year student @ Heritage Institue of Technoloy</p>
+                    <p className="text-lg mt-4">Pre-final year student @ Heritage Institue of Technoloy</p>
+
 
                 <nav className="mt-10 space-y-4 text-gray-400">
                     <div className="flex items-center space-x-2">
@@ -32,7 +35,7 @@ const Sidebar = function () {
                         </a>
                     </div>
                 </nav>
-                
+
                 <div className="flex space-x-6 mt-10 text-gray-400">
                     <a href="https://github.com/Raja6284" target="_blank" rel="noopener noreferrer">
                         <FaGithub className="text-2xl hover:text-white cursor-pointer" />
@@ -45,6 +48,9 @@ const Sidebar = function () {
                     </a>
                     <a href="https://www.instagram.com/raja_r4j4/" target="_blank" rel="noopener noreferrer">
                         <FaInstagram className="text-2xl hover:text-white cursor-pointer" />
+                    </a>
+                    <a href="https://www.reddit.com/user/LossPitiful7416/" target="_blank" rel="noopener noreferrer">
+                        <FaReddit className="text-2xl hover:text-white cursor-pointer" />
                     </a>
                 </div>
 
