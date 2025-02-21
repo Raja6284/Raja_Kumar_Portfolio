@@ -17,7 +17,10 @@ function App() {
        <Route path="/projects" element={<Projects/>} />
        <Route path="/educations" element={<EducationShowcase/>} />
     </Routes>
-          
+  {/* <About/>
+  <Experience/>
+  <Projects/>
+  <EducationShowcase/> */}
    </Layout>
   )
 }

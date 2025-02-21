@@ -2,8 +2,11 @@ import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa"
 import { FaTwitter } from "react-icons/fa"
 import { FaReddit } from "react-icons/fa";
 import { NavLink } from "react-router-dom"
+import Experience from "./Experience";
+import Layout from "../Layout/Layout.jsx";
 
 const Sidebar = function () {
+
     return (
         <div>
             <div className="flex flex-col items-center justify-start pt-15">
@@ -27,17 +30,17 @@ const Sidebar = function () {
                         <span className="w-12 h-px bg-gray-500"></span>
                         <span className="text-gray-500">EXPERIENCE</span>
                         </NavLink>
-                        
+
                     </div>
                     <div className="flex items-center space-x-2">
-                        <NavLink to="projects">
+                        <NavLink to="/projects">
                         <span className="w-12 h-px bg-gray-500"></span>
                         <span className="text-gray-500">PROJECTS</span>
                         </NavLink>
                     </div>
 
                     <div className="flex items-center space-x-2">
-                        <NavLink to="educations">
+                        <NavLink to="/educations">
                         <span className="w-12 h-px bg-gray-500"></span>
                         <span className="text-gray-500">Educations</span>
                         </NavLink>
