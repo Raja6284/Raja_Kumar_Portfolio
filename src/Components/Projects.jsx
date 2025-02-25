@@ -1,6 +1,6 @@
 const Card = ({ image, title, link, description, techStack }) => {
     return (
-        <div className="bg-slate-800 text-white p-6 rounded-2xl shadow-lg max-w-lg flex flex-col hover:bg-slate-700 transition duration-300 mt-12">
+        <div className="bg-slate-800 text-white p-6 rounded-2xl shadow-lg max-w-lg flex flex-col hover:bg-slate-700 transition duration-300 mt-5">
             {/* Image & Title */}
             <div className="flex items-start gap-4">
                 <img

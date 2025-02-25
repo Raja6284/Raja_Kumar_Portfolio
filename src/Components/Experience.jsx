@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 const Card = ({ date, year, role,link, company, location, description, techStack }) => {
     return (
-        <div className="bg-slate-800 text-white p-6 rounded-2xl shadow-lg max-w-lg flex flex-col hover:bg-slate-700 transition duration-300">
+        <div className="bg-slate-800 text-white p-6 rounded-2xl shadow-lg max-w-lg flex flex-col hover:bg-slate-700 transition duration-300 mt-5">
             {/* Date & Role */}
             <div className="flex items-start gap-4">
                 <div className="flex flex-col text-gray-400 text-sm font-medium">
